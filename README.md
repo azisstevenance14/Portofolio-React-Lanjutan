@@ -1,16 +1,27 @@
-# React + Vite
+# 🚀 Portofolio Pribadi - Azis Steven S. Ance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portofolio web modern, modular, dan responsif yang dibangun menggunakan tumpukan teknologi *front-end* modern. Didesain dengan estetika bersih (*clean aesthetic*) dan tata letak berbasis komponen untuk menampilkan profil, keterampilan, serta perjalanan pengembangan perangkat lunak dan sistem IoT.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ Tech Stack (Teknologi yang Digunakan)
 
-## React Compiler
+* **Core Library:** React.js (Vite)
+* **Styling Framework:** Bootstrap 5
+* **Ikon Antarmuka:** React Icons (`react-icons/fa`)
+* **Pengelolaan Versi:** Git & GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📂 Struktur Komponen Proyek
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Proyek ini dirancang secara modular agar mudah dikembangkan dan dirawat:
+
+* `src/components/Navbar.jsx` — Bilah navigasi atas yang responsif dengan efek gulir.
+* `src/components/Hero.jsx` — Bagian perkenalan utama dengan foto profil dan tombol aksi cepat.
+* `src/components/About.jsx` — Latar belakang diri, fokus keahlian Front-End & Sistem IoT.
+* `src/components/Skills.jsx` — Daftar keterampilan teknis (HTML, CSS, JavaScript, React, Bootstrap, Arduino).
+* `src/components/Contact.jsx` — Informasi kontak langsung dan formulir pesan interaktif.
+* `src/components/Footer.jsx` — Bagian penutup hak cipta dan tombol pintasan kembali ke atas (*back to top*).
+
+---
